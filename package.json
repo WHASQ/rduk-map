@@ -1,0 +1,34 @@
+{
+  "name": "@rduk/map",
+  "version": "0.0.1",
+  "description": "Map Provider",
+  "engines": {
+    "node": ">=6.4.0"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "standard --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rd-uk/rduk-map.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rd-uk/rduk-map/issues"
+  },
+  "homepage": "https://github.com/rd-uk/rduk-map#readme",
+  "keywords": [
+    "rduk",
+    "map",
+    "provider"
+  ],
+  "author": "RDUK <tech@rduk.fr>",
+  "license": "MIT",
+  "dependencies": {
+    "@rduk/errors": "^1.3.0",
+    "@rduk/provider": "^3.0.1"
+  },
+  "devDependencies": {
+    "standard": "10.0.3"
+  }
+}

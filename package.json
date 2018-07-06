@@ -1,6 +1,6 @@
 {
   "name": "@rduk/map",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Map Provider",
   "engines": {
     "node": ">=6.4.0"
@@ -24,11 +24,13 @@
   ],
   "author": "RDUK <tech@rduk.fr>",
   "license": "MIT",
-  "dependencies": {
-    "@rduk/errors": "^1.3.0",
-    "@rduk/provider": "^3.0.1"
+  "peerDependencies": {
+    "@rduk/errors": "1.x",
+    "@rduk/provider": "3.x"
   },
   "devDependencies": {
+    "@rduk/errors": "1.x",
+    "@rduk/provider": "3.x",
     "standard": "10.0.3"
   }
 }
